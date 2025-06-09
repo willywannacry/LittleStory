@@ -15,8 +15,65 @@ MonoBehaviour:
   _category: 0
   _spawnChance: 100
   Event:
-    _id: 
-    _title: 
-    _description: 
-    _recomendedAge: 0
-    _choices: []
+    _id: juice
+    _title: "\u0421\u043E\u043A \u0434\u043B\u044F \u0434\u0440\u0443\u0433\u0430"
+    _description: "\u0412 \u0434\u0435\u0442\u0441\u043A\u043E\u043C \u0441\u0430\u0434\u0443
+      \u0442\u044B \u0437\u0430\u043C\u0435\u0442\u0438\u043B, \u0447\u0442\u043E
+      \u0443 \u043C\u0430\u043B\u044C\u0447\u0438\u043A\u0430 \u043D\u0435 \u0431\u044B\u043B\u043E
+      \u0441\u043E\u043A\u0430. \u0410 \u0443 \u0442\u0435\u0431\u044F \u0431\u044B\u043B. "
+    _recomendedAge: 2
+    _choices:
+    - _baseSuccessChance: 90
+      _resultSuccess: "\u041E\u043D \u0443\u043B\u044B\u0431\u043D\u0443\u043B\u0441\u044F
+        \u0438 \u0441\u0442\u0430\u043B \u0442\u0432\u043E\u0438\u043C \u0434\u0440\u0443\u0433\u043E\u043C"
+      _resultFail: "\u0412\u043E\u0441\u043F\u0438\u0442\u0430\u0442\u0435\u043B\u044C
+        \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0430 \u0438 \u0441\u043E\u043A
+        \u043F\u0440\u043E\u043B\u0438\u043B\u0441\u044F"
+      _resultTitleSuccess: "\u0412\u043C\u0435\u0441\u0442\u0435 - \u0432\u0435\u0441\u0435\u043B\u0435\u0435"
+      _resultTitleFail: "\u0422\u0432\u043E\u044E-\u0442\u043E..."
+      _requiredTraits: []
+      _failFlags: []
+      _deadFlags: []
+      _text: "\u041F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u0441\u043E\u043A\u043E\u043C"
+      _ageOffSet: 2
+      _addTraitsAlways:
+      - "\u0434\u043E\u0431\u0440\u044B\u0439"
+      - "\u043E\u0431\u0449\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439"
+      _addFlagsAlways: []
+      _addTraitsSuccess: []
+      _addFlagsSuccess: []
+      _addTraitsFail: []
+      _addFlagsFail: []
+      _statChangeSuccess:
+        StatKeys: 
+        StatValues: 
+      _statChangeFail:
+        StatKeys: 
+        StatValues: 
+    - _baseSuccessChance: 90
+      _resultSuccess: "\u0422\u044B \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
+        \u0432\u044B\u043F\u0438\u043B \u0432\u0435\u0441\u044C \u0441\u043E\u043A"
+      _resultFail: "\u0422\u044B \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
+        \u0432\u044B\u043F\u0438\u043B \u0432\u0435\u0441\u044C \u0441\u043E\u043A.
+        \u041C\u0430\u043B\u044C\u0447\u0438\u043A \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u043B
+        \u043D\u0430 \u0442\u0435\u0431\u044F \u0441 \u043E\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435\u043C"
+      _resultTitleSuccess: "\u0412\u043A\u0443\u0441\u043D\u044F\u0442\u0438\u043D\u0430"
+      _resultTitleFail: "\u0423\u0436\u0435 \u043D\u0435 \u0442\u0430\u043A \u0432\u043A\u0443\u0441\u043D\u043E"
+      _requiredTraits: []
+      _failFlags: []
+      _deadFlags: []
+      _text: "\u0412\u044B\u043F\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443"
+      _ageOffSet: 2
+      _addTraitsAlways:
+      - "\u044D\u0433\u043E\u0438\u0441\u0442\u0438\u0447\u043D\u044B\u0439"
+      _addFlagsAlways: []
+      _addTraitsSuccess: []
+      _addFlagsSuccess: []
+      _addTraitsFail: []
+      _addFlagsFail: []
+      _statChangeSuccess:
+        StatKeys: 00000000
+        StatValues: 05000000
+      _statChangeFail:
+        StatKeys: 
+        StatValues: 
